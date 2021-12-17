@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/frame_et1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="할 일을 입력하세요."
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_add"
+            android:layout_weight="1"
+            android:text="ENTER"
+            android:layout_marginHorizontal="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘의 할 일"
+            android:textSize="25sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbars="vertical"
+        tools:ignore="MissingClass">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

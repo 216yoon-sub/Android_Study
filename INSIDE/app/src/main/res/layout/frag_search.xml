@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="검색어를 입력하세요."
+        android:layout_marginHorizontal="10dp"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:drawablePadding="10dp"/>
+
+    <ListView
+        android:id="@+id/listview_search"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:textFilterEnabled="true"/>
+</LinearLayout>

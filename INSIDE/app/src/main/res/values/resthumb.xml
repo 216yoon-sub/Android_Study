@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="resthumb">
+        <item>@drawable/pizza</item>
+        <item>@drawable/avocado</item>
+        <item>@drawable/bibimbab</item>
+        <item>@drawable/chicken</item>
+        <item>@drawable/curry</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/hamburger</item>
+        <item>@drawable/hotdog</item>
+        <item>@drawable/junkfood</item>
+        <item>@drawable/noodle</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/avocado</item>
+        <item>@drawable/bibimbab</item>
+        <item>@drawable/chicken</item>
+        <item>@drawable/curry</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/hamburger</item>
+        <item>@drawable/hotdog</item>
+        <item>@drawable/junkfood</item>
+        <item>@drawable/noodle</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/avocado</item>
+        <item>@drawable/bibimbab</item>
+        <item>@drawable/chicken</item>
+        <item>@drawable/curry</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/hamburger</item>
+        <item>@drawable/hotdog</item>
+        <item>@drawable/junkfood</item>
+        <item>@drawable/noodle</item>
+    </array>
+</resources>
