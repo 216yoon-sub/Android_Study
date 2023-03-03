@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_play1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/iljido"
+            android:layout_marginVertical="5dp"/>
+        <ImageButton
+            android:id="@+id/btn_play2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/windflower"
+            android:layout_marginVertical="5dp"/>
+        <ImageButton
+            android:id="@+id/btn_play3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/fourbyfourever"
+            android:layout_marginVertical="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_go_newyork"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:src="@drawable/newyorkone"
+                android:layout_gravity="center"/>
+            <ImageButton
+                android:id="@+id/btn_play4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/newyorktwo"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_play5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/rainyseason"
+            android:layout_marginVertical="5dp"/>
+        <ImageButton
+            android:id="@+id/btn_play6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/yesiam"
+            android:layout_marginVertical="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STOP"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"/>
+            <Button
+                android:id="@+id/btn_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pause"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+            <Button
+                android:id="@+id/btn_random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="random"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frameSize">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/frameSize"/>
+
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

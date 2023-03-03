@@ -1,0 +1,2 @@
+rootProject.name = "PNU_ARENA_MVP_1.0"
+include ':app'
